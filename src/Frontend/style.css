@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+ 
+
+  /*
+  Color scheme
+  f35b04
+  f18701
+  f7b801
+  9683ec
+  5d16a6
+  */
+
+  
+  /* Update the styles for the card container */
+/* Update the styles for the card container */
+.card-container {
+  flex: 1; /* Take up remaining space */
+  /* Add card container styles */
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center cards horizontally */
+}
+
+/* Update the styles for the individual cards */
+
+
+.other-container {
+  flex: 1; /* Take up remaining space */
+  /* Add styles for the other container */
+}
+  
+  
+
+  .topTitle{
+    color: #F7F7F7;
+    font-size: 4em;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #5d16a6; /* add a subtle shadow effect */
+    position: relative; /* or relative, depending on your layout */
+    text-align: center;
+    height: 10px;
+  }
+  
+  body {
+      width: 100%;
+      min-height:100vh;
+      background: linear-gradient(135deg, #355c7D, #6c5B7B, #C06C84);
+      padding: 10px;
+    overflow: hidden;
+    overflow: auto;
+  }
+
+  
+  h3 {
+    /* Font */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+  
+  /* Color */
+  color: #F7F7F7;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+  margin: 10px;
+  }
+  
+ 
+  
+  
+  .topnav .search-container{
+    float: right;
+  }
+  /********************************************************************************
+    CSS for List and Tiger homepage
+********************************************************************************/
+
+
+
+  .parent{
+
+    margin:3px;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+
+  .child{
+    color: #002765;
+    display: inline-block;
+    width: 45%;
+    max-height: 400px;
+    min-height:78vh;
+    background-color: #fff;
+    margin-right: 5%;
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+    vertical-align: middle;
+    border-radius: 10px;
+  }
+
+  .center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+  }
+
+/********************************************************************************
+    CSS for main homepage
+********************************************************************************/
+
+  form{
+    background-color: #f18701;
+    width: 260px;
+    height: 43px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    all: unset;
+    font: 18px system-ui;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+  }
+  
+  .section {
+    color: black;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%
+  }
+
+
+  .thumbnail {
+    height: 200px;
+    width: 90%;
+    border-radius: 8px;
+  }
+
+  
+  
+  .columnMan {
+    float: center;
+    width: 100%;
+    padding: 10px 10px;
+  }
+
+  ::placeholder{
+    color: white;
+  }
+  
+  
+/********************************************************************************
+    CSS for Descprition in cards
+********************************************************************************/
+/*
+  Color scheme
+  f35b04
+  f18701
+  f7b801
+  9683ec
+  5d16a6
+  */
+  .description{
+    /* Background and border */
+  border-radius: 5px;
+  padding: 10px;
+  overflow: hidden;
+  height: 75px;
+  
+  /* Typography */
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  
+  /* Text alignment */
+  text-align: left;
+  
+
+  }
+  
+  .hidden{
+    display: none;
+  }
+  
+  
+  
+
+/********************************************************************************
+    CSS for individual cards
+********************************************************************************/
+
+  .card{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: left;
+    background-color: #e8e8e8;
+    width: 99%;
+    height: 14%;
+    border: 50px;
+    margin-bottom: 20px; /* Add margin between cards */
+    float: center;
+  }
+
+  .completedCard{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: left;
+    background-color: #6c5B7B;
+    width: 99%;
+    height: 14%;
+    border: 50px;
+    margin-bottom: 20px; /* Add margin between cards */
+  
+  }
+
+  
+  
+  .card:hover{
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+    transform: translateY(-10px);
+  }
+
+/********************************************************************************
+    CSS for Home button
+********************************************************************************/
+  
+  .topnav button{
+    align-items: center;
+    appearance: none;
+    background-color: #C06C84;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+
+  .topnav button:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #9683ec 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .topnav button:active {
+    box-shadow: #9683ec 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+  
+
+/********************************************************************************
+    CSS for Reviews
+********************************************************************************/
+
+  /* Title for Review Page */
+  .revFor{
+    color: #fff;
+    font-size: 4em;
+    justify-content: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #FFFFFF; /* add a subtle shadow effect */
+    position: relative; /* or relative, depending on your layout */
+    text-align: center;
+    height: 30px;
+  }
+    /*
+  Color scheme
+  f35b04
+  f18701
+  f7b801
+  9683ec
+  5d16a6
+  */
+  
+  .ReviewCard{
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f18701;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .reviewInput{
+    color:black;
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+  }
+  
+  .reviewTitle{
+    font-size: 38px;
+    width: 400px;
+    text-align: center;
+    margin: 5% auto;
+  }
+  
+  ::placeholder{
+    color:white;
+  }
+  
+  .toDoTitle{
+    overflow: hidden;
+  }
+  
+
+  .AddNewtoDoCard {
+    text-align: center;
+    border-radius: 19px;
+    padding: 15px;
+    background-color: #C06C84;
+    width: 80%; /* Adjust the width as needed */
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basicButton{
+  margin-top: 5%;
+  align-items: center;
+  appearance: none;
+  background-color: #C06C84;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.highlight{
+  margin-top: 5%;
+  align-items: center;
+  appearance: none;
+  background-color: #C06C84;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.highlight:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #9683ec 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.highlight:active {
+  box-shadow: #9683ec 0 3px 7px inset;
+  transform: translateY(2px);
+}
+  
+
+  
+/********************************************************************************
+    CSS for signUp Page
+********************************************************************************/
+.Login_Div{
+  border-radius: 19px;
+  text-align: center;
+  padding: 30px;
+  background-color: #355c7D;
+  width: 100%;
+  height: auto;
+}
+
+.Login_row{
+  margin: auto;
+}
+
+.Signup_Div{
+  margin-top:15%;
+  border-radius: 19px;
+  text-align: center;
+  padding: 30px;
+  background-color: #C06C84;
+  width: 100%;
+  height: auto;
+}
+.Signup_row{
+  justify-content: center;
+  margin: auto;
+}
+
+.Signup_Div button{
+  margin-top: 5%;
+  align-items: center;
+  appearance: none;
+  background-color: #355c7D;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.Signup_Div button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #9683ec 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.Signup_Div button:active {
+  box-shadow: #9683ec 0 3px 7px inset;
+  transform: translateY(2px);
+}
+/********************************************************************************
+    CSS for Home button
+********************************************************************************/
+.cardMaker{
+  .Signup_Div button{
+    margin-top: 5%;
+    align-items: center;
+    appearance: none;
+    background-color: #355c7D;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  .cardMaker:hover {
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #9683ec 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .cardMaker:active {
+    box-shadow: #9683ec 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+}
+
