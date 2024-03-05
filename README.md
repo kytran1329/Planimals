@@ -1,4 +1,4 @@
-# TigerPark
+# Planimals
 
 
 A hackathon project with a unique take on the to-do list concept featuring a virtual pet dependency system. Utilizing AWS Lambda, API Gateway, DynamoDB, and Node.js for the backend, and HTML, CSS, and JavaScript for the frontend, we created an engaging web application.
